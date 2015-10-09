@@ -1,4 +1,4 @@
-# CS4223_MESI_Simulator
+# CS4223_MESI_Dragon_Simulator
 
 ### Input:
 Multiple trace files for different cores:
