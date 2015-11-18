@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D9A24501BC7B7F700FE7228 /* CS4223.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D9A244F1BC7B7F700FE7228 /* CS4223.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6D9A244A1BC7B7F700FE7228 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6D7E13EC1BF9B69800B92E90 /* CS4223.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CS4223.h; sourceTree = "<group>"; };
+		6D7E13ED1BF9D80F00B92E90 /* Processor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		6D9A244C1BC7B7F700FE7228 /* CS4223_MESI_Dragon_Simulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CS4223_MESI_Dragon_Simulator; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D9A244F1BC7B7F700FE7228 /* CS4223.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CS4223.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D9A24491BC7B7F700FE7228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D9A24431BC7B7F700FE7228 = {
+			isa = PBXGroup;
+			children = (
+				6D9A244E1BC7B7F700FE7228 /* CS4223_MESI_Dragon_Simulator */,
+				6D9A244D1BC7B7F700FE7228 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D9A244D1BC7B7F700FE7228 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D9A244C1BC7B7F700FE7228 /* CS4223_MESI_Dragon_Simulator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D9A244E1BC7B7F700FE7228 /* CS4223_MESI_Dragon_Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E13EC1BF9B69800B92E90 /* CS4223.h */,
+				6D9A244F1BC7B7F700FE7228 /* CS4223.cpp */,
+				6D7E13ED1BF9D80F00B92E90 /* Processor.h */,
+			);
+			path = CS4223_MESI_Dragon_Simulator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D9A244B1BC7B7F700FE7228 /* CS4223_MESI_Dragon_Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D9A24531BC7B7F700FE7228 /* Build configuration list for PBXNativeTarget "CS4223_MESI_Dragon_Simulator" */;
+			buildPhases = (
+				6D9A24481BC7B7F700FE7228 /* Sources */,
+				6D9A24491BC7B7F700FE7228 /* Frameworks */,
+				6D9A244A1BC7B7F700FE7228 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CS4223_MESI_Dragon_Simulator;
+			productName = CS4223_MESI_Dragon_Simulator;
+			productReference = 6D9A244C1BC7B7F700FE7228 /* CS4223_MESI_Dragon_Simulator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D9A24441BC7B7F700FE7228 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Roastedbill;
+				TargetAttributes = {
+					6D9A244B1BC7B7F700FE7228 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6D9A24471BC7B7F700FE7228 /* Build configuration list for PBXProject "CS4223_MESI_Dragon_Simulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D9A24431BC7B7F700FE7228;
+			productRefGroup = 6D9A244D1BC7B7F700FE7228 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D9A244B1BC7B7F700FE7228 /* CS4223_MESI_Dragon_Simulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D9A24481BC7B7F700FE7228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9A24501BC7B7F700FE7228 /* CS4223.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6D9A24511BC7B7F700FE7228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6D9A24521BC7B7F700FE7228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6D9A24541BC7B7F700FE7228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D9A24551BC7B7F700FE7228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D9A24471BC7B7F700FE7228 /* Build configuration list for PBXProject "CS4223_MESI_Dragon_Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D9A24511BC7B7F700FE7228 /* Debug */,
+				6D9A24521BC7B7F700FE7228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D9A24531BC7B7F700FE7228 /* Build configuration list for PBXNativeTarget "CS4223_MESI_Dragon_Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D9A24541BC7B7F700FE7228 /* Debug */,
+				6D9A24551BC7B7F700FE7228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D9A24441BC7B7F700FE7228 /* Project object */;
+}
